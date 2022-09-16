@@ -1,7 +1,7 @@
 package poker;
 
 public class Poker {
-	// Precondition: A hand of n cards have been sorted by card number. new features
+	// Precondition: A hand of n cards have been sorted by card number. new features, new 2
 	public boolean isFullHouse(String cards[], int n) {
 		return isThreeOfaKind(cards, n) && isTwoPairs(cards, n);
 	}
